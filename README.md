@@ -1,6 +1,6 @@
 # 🏢 Enterprise Security Simulation Lab
 
-![Architecture Diagram](https://your-image-link-here.com/architecture-diagram.png)
+![Architecture Diagram](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/Docs/Architecture.png)
 
 ## 📌 Overview
 
