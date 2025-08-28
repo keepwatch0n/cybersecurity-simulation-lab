@@ -1,4 +1,4 @@
-🛡️ Enterprise Security Simulation Lab
+## 🛡️ Enterprise Security Simulation Lab
 
 This project is a hands-on Enterprise Security Simulation Lab built during my CDAC journey, designed to replicate real-world cybersecurity environments.
 It includes network defense (Blue Team) and attack simulations (Red Team) with monitoring, detection, and reporting.
