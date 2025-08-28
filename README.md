@@ -4,7 +4,7 @@
 
 ## 📌 Overview
 
-This project simulates a real-world enterprise security infrastructure, combining both offensive (Red Team) and defensive (Blue Team) operations. It provides a practical environment for learning firewall configuration, IDS/IPS tuning, vulnerability exploitation, monitoring, log analysis, VPN security, DNS filtering, and email protection.
+This project simulates a real-world enterprise security infrastructure, combining both offensive (Red Team) and defensive (Blue Team) operations. It provides a practical environment for learning firewall configuration, IDS/IPS tuning, vulnerability exploitation, monitoring, log analysis, VPN, and email protection.
 
 The lab was built as part of my CDAC journey, fully deployed under Oracle VirtualBox, using a mix of Linux (Debian 12 Bookworm, Kali Linux) and Windows 11 machines.
 
