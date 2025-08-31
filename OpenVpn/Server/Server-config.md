@@ -18,7 +18,7 @@ All screenshots are included to showcase the configuration process.
 - Either **create** a new certificate or **import** an existing one.  
 - Make sure to generate both the **certificate** and **private key** for your VPN server.  
 
-![Certificate Creation](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Server/images/13.png)
+![Certificate Creation](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/13.png)
 
 ---
 
@@ -33,7 +33,7 @@ All screenshots are included to showcase the configuration process.
   - **Digest:** SHA256  
   - **DH Params:** 2048 bits  
 
-![OpenVPN Server Configuration](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Server/images/14.png)
+![OpenVPN Server Configuration](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/13.png)
 
 ---
 
@@ -45,7 +45,7 @@ All screenshots are included to showcase the configuration process.
   - **Destination:** LAN Subnets  
   - **Action:** Pass  
 
-![Firewall Rule](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Server/images/16.png)
+![Firewall Rule](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/13.png)
 
 ---
 
@@ -54,7 +54,7 @@ All screenshots are included to showcase the configuration process.
 - Once connected, verify in **Status → OpenVPN**.  
 - You should see the client’s **Common Name, Real Address, Virtual Address**, and connection details.  
 
-![Client Connected](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Server/images/15.png)
+![Client Connected](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/13.png)
 
 ---
 
