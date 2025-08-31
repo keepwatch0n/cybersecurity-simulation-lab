@@ -17,7 +17,7 @@ The DMZ web server is secured using an **SSL/TLS certificate** issued by the int
 * OU: `DMZ Web Server`  
 * Issued By: `SecurityLab Root CA`  
 
-![Certificate Configuration](./images/Certificate_HTTPS.png)
+![Certificate Configuration](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/Certificate_HTTPS.png)
 
 ---
 
@@ -33,7 +33,7 @@ https://192.168.20.100/DVWA/login.php
 
 Users can authenticate with their assigned credentials.  
 
-![DVWA Login Page](./images/DMZ_Login_page.png)
+![DVWA Login Page](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/DMZ_Login_page.png)
 
 ---
 
@@ -46,7 +46,7 @@ DVWA allows changing its **security level** to simulate different vulnerability 
 - **High** → Stricter protections, limited vulnerabilities.  
 - **Impossible** → Fully patched, secure mode.  
 
-![DVWA Security Settings](./images/DVWA Security Page.png)
+![DVWA Security Settings](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/DVWA%20Security%20Page.png).
 
 ---
 
@@ -61,7 +61,7 @@ Upon successful login, the DVWA dashboard provides access to multiple **vulnerab
 - CSRF  
 - Weak Session IDs  
 
-![DVWA Dashboard](./images/Successful login dashboard.png)
+![DVWA Dashboard](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/Successful%20login%20dashboard.png).
 
 ---
 
@@ -76,7 +76,7 @@ The DVWA setup is running on an **Apache Web Server** with the following environ
 * **Database Name:** `dvwa`  
 * **Database Port:** `3306`  
 
-![DVWA Environment Setup](./images/This setup check page.png)
+![DVWA Environment Setup](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/This%20setup%20check%20page.png).
 
 ---
 
