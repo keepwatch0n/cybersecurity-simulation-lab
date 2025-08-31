@@ -1,5 +1,6 @@
-🛡️ Snort IDS/IPS Setup on pfSense
-Step 1: Install Snort Package on pfSense
+# 🛡️ Snort IDS/IPS Setup on pfSense
+
+## Step 1: Install Snort Package on pfSense
 
 Log in to the pfSense WebGUI.
 
@@ -9,7 +10,7 @@ Search for Snort and click Install.
 
 Once installed, you will see Services → Snort in the navigation bar.
 
-Step 2: Create a Snort Interface
+## Step 2: Create a Snort Interface
 
 Go to Services → Snort → Interfaces.
 
@@ -28,7 +29,7 @@ Block Offenders: Enabled (for IPS).
 📸 Screenshot Example – Snort Interface Setup
 (Insert your services/snort/interface screenshot here)
 
-Step 3: Configure Snort Global Settings
+## Step 3: Configure Snort Global Settings
 
 Go to Services → Snort → Global Settings.
 
@@ -38,7 +39,7 @@ Enter your Oinkcode (if using Snort.org rules).
 
 Save and update rules.
 
-Step 4: Add Custom Snort Rules (DMZ Alerts)
+## Step 4: Add Custom Snort Rules (DMZ Alerts)
 
 Go to Services → Snort → Rules on the DMZ interface.
 
@@ -52,7 +53,7 @@ This rule will trigger alerts whenever ICMP packets (ping) are detected in the D
 📸 Screenshot Example – Snort DMZ Rules
 (Insert your “snort DMZ rules” screenshot here)
 
-Step 5: View Snort Alerts
+## Step 5: View Snort Alerts
 
 Navigate to Services → Snort → Alerts.
 
