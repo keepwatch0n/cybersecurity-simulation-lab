@@ -11,7 +11,7 @@
 ## Step 1: Install OpenVPN Client on Windows
 
 - Download the OpenVPN Client for Windows from the official OpenVPN website or the link provided by your administrator.  
-  ![OpenVPN Client Download](https://raw.githubusercontent.com/username/repo/branch/path/to/image1.png)
+  ![OpenVPN Client Download](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/Client_Side.png)
 
 - Run the OpenVPN installer `.exe` file.
 - Follow the installation wizard’s instructions and complete the installation.  
