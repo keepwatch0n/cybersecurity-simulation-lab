@@ -15,10 +15,10 @@
 
 - Run the OpenVPN installer `.exe` file.
 - Follow the installation wizard’s instructions and complete the installation.  
-  ![OpenVPN Installation](https://raw.githubusercontent.com/username/repo/branch/path/to/image2.png)
+  ![OpenVPN Installation](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/Installation_Done.png)
 
 - Once installed, you should see the OpenVPN Client icon in your system tray (bottom-right corner of your screen).  
-  ![OpenVPN Client Icon](https://raw.githubusercontent.com/username/repo/branch/path/to/image3.png)
+  ![OpenVPN Client Icon](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/4.png)
 
 ---
 
@@ -37,10 +37,10 @@
 - Right-click on it and select the connection profile you imported.
 - Click **Connect**.
 - When prompted, enter your **username** and **password** provided for VPN access.  
-  ![OpenVPN Login](https://raw.githubusercontent.com/username/repo/branch/path/to/image4.png)
+  ![OpenVPN Login](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/5.png)
   
 - After successful authentication, the OpenVPN client will connect, and the icon will turn **green** indicating an active VPN session.  
-  ![OpenVPN Connected](https://raw.githubusercontent.com/username/repo/branch/path/to/image5.png)
+  ![OpenVPN Connected](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/1.png)
 
 ---
 
@@ -49,12 +49,12 @@
 - Open the Command Prompt (`cmd`).
 - Run the command to check your IP address:  
 
-![IP Configuration](https://raw.githubusercontent.com/username/repo/branch/path/to/image6.png)
+![IP Configuration](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/11.png)
 
 - You should see an IP address assigned from the VPN network (matching your pfSense LAN subnet).
 - Test connectivity by pinging your project LAN:  
 
-![Ping Test](https://raw.githubusercontent.com/username/repo/branch/path/to/image7.png)
+![Ping Test](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/10.png)
 
 ---
 
