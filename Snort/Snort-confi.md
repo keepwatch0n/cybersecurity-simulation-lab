@@ -14,7 +14,7 @@ Once installed, you will see Services → Snort in the navigation bar.
 
 Go to Services → Snort → Interfaces.
 
-Click Add and choose the interface where you want IDS/IPS inspection (e.g., DMZ).
+Click Add and choose the interface where you want IDS/IPS inspection (e.g., DMZ, LAN).
 
 Configure:
 
@@ -26,8 +26,7 @@ IPS Mode: Optionally enable inline IPS if desired.
 
 Block Offenders: Enabled (for IPS).
 
-📸 Screenshot Example – Snort Interface Setup
-(Insert your services/snort/interface screenshot here)
+![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/Snort/images/Screenshot%202025-08-11%20144511.png) ## interface photo
 
 ## Step 3: Configure Snort Global Settings
 
@@ -50,6 +49,7 @@ alert icmp any any -> any any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
 
 This rule will trigger alerts whenever ICMP packets (ping) are detected in the DMZ.
 
+![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/Snort/images/Screenshot%202025-08-11%20144511.png)
 📸 Screenshot Example – Snort DMZ Rules
 (Insert your “snort DMZ rules” screenshot here)
 
@@ -61,6 +61,7 @@ Select the interface (e.g., DMZ).
 
 You should now see triggered alerts such as ICMP detection logs.
 
+![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/Snort/images/Screenshot%202025-08-11%20144511.png)
 📸 Screenshot Example – Snort Alerts Page
 (Insert your services/snort/alert screenshot here — the one you already uploaded)
 
@@ -68,9 +69,9 @@ You should now see triggered alerts such as ICMP detection logs.
 
 Installed Snort on pfSense.
 
-Configured Snort interfaces (e.g., DMZ).
+Configured Snort interfaces (e.g., DMZ,LAN).
 
-Applied alert rules for ICMP traffic.
+Applied alert rules.
 
 Verified results in Services → Snort → Alerts.
 
