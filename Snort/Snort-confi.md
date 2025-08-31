@@ -26,7 +26,7 @@ IPS Mode: Optionally enable inline IPS if desired.
 
 Block Offenders: Enabled (for IPS).
 
-![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/Snort/images/Screenshot%202025-08-11%20144511.png) ## interface photo
+![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/Screenshot%202025-08-11%20144544.png) 
 
 ## Step 3: Configure Snort Global Settings
 
@@ -49,9 +49,8 @@ alert icmp any any -> any any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
 
 This rule will trigger alerts whenever ICMP packets (ping) are detected in the DMZ.
 
-![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/Snort/images/Screenshot%202025-08-11%20144511.png)
-📸 Screenshot Example – Snort DMZ Rules
-(Insert your “snort DMZ rules” screenshot here)
+![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/Screenshot%202025-08-11%20144609.png)
+
 
 ## Step 5: View Snort Alerts
 
@@ -61,9 +60,8 @@ Select the interface (e.g., DMZ).
 
 You should now see triggered alerts such as ICMP detection logs.
 
-![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/Snort/images/Screenshot%202025-08-11%20144511.png)
-📸 Screenshot Example – Snort Alerts Page
-(Insert your services/snort/alert screenshot here — the one you already uploaded)
+![Snort Installed](https://github.com/keepwatch0n/cybersecurity-simulation-lab/blob/master/OpenVpn/Client/images/Screenshot%202025-08-11%20144511.png)
+
 
 ✅ Summary
 
